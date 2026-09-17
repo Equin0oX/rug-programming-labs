@@ -1,18 +1,21 @@
 """
-File:   helloworld.py
+File:   simpleEncoding.py
 Author: Sebastian Ševčík (s.sevcik@student,rug.nl)
 
 Description:
-    This program takes inputs for coordinated of opposing edges of a rectangle, and a point laying onf the field, then prints out where the point lays in relation to the shape.
+    This program prints the numeric (Unicode code point) value of each letter
+    in the lowercase alphabet.
 """
 
-corner1 = (int(input()),int(input()))
-corner2 = (int(input()),int(input()))
-point = (int(input()),int(input()))
+def simple_encoder(word):
+    result = ""
+    for i, letter in enumerate(word):
+        if 65 <= ord(letter) <= 90:
+            result += chr((ord(letter) + i+1 - 65) % 26 + 65)
+        elif 97 <= ord(letter) <= 122:
+            result += chr((ord(letter) + i+1 - 97) % 26 + 97)
+        else:
+            result += letter
+    return result
 
-if min(corner1[0], corner2[0]) < point[0] < max(corner1[0], corner2[0]) and min(corner1[1], corner2[1]) < point[1] < max(corner1[1], corner2[1]):
-    print("INSIDE")
-elif min(corner1[0], corner2[0]) <= point[0] <= max(corner1[0], corner2[0]) and min(corner1[1], corner2[1]) <= point[1] <= max(corner1[1], corner2[1]):
-    print("EDGE")
-else :
-    print("OUTSIDE")
+print(simple_encoder(input()))

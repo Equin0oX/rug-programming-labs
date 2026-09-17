@@ -18,3 +18,8 @@ Thumbs.db
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Only labAssignments/ is shared to this repo
+/Imperative_Programming_wk1_code/
+/Imperative_Programming_wk2_code/
+/Imperative_Programming_wk4_code/
