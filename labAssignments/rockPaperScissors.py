@@ -1,6 +1,6 @@
 """
-File:   helloworld.py
-Author: Sebastian Ševčík (s.sevcik@student,rug.nl)
+File:   rockPaperScissors.py
+Author: Sebastian Ševčík (s.sevcik@student.rug.nl)
 
 Description:
     This program takes in two imputs of player move decisions, then prints out which player has won.

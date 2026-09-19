@@ -1,6 +1,6 @@
 """
-File:   helloworld.py
-Author: Sebastian Ševčík (s.sevcik@student,rug.nl)
+File:   hitDetection.py
+Author: Sebastian Ševčík (s.sevcik@student.rug.nl)
 
 Description:
     This program takes inputs for coordinated of opposing edges of a rectangle, and a point laying onf the field, then prints out where the point lays in relation to the shape.

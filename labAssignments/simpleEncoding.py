@@ -1,6 +1,6 @@
 """
 File:   simpleEncoding.py
-Author: Sebastian Ševčík (s.sevcik@student,rug.nl)
+Author: Sebastian Ševčík (s.sevcik@student.rug.nl)
 
 Description:
     This program prints the numeric (Unicode code point) value of each letter

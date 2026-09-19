@@ -1,6 +1,6 @@
 """
 File:   helloworld.py
-Author: Sebastian Ševčík (s.sevcik@student,rug.nl)
+Author: Sebastian Ševčík (s.sevcik@student.rug.nl)
 
 Description:
     This program prints "hello world" into the console.

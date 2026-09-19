@@ -1,6 +1,6 @@
 """
-File:   helloworld.py
-Author: Sebastian Ševčík (s.sevcik@student,rug.nl)
+File:   moneyFormatter.py
+Author: Sebastian Ševčík (s.sevcik@student.rug.nl)
 
 Description:
     This program takes a decimal value and splits it into euros and cents, then prints to the console.
