@@ -3,8 +3,9 @@ File:   simpleEncoding.py
 Author: Sebastian Ševčík (s.sevcik@student.rug.nl)
 
 Description:
-    This program prints the numeric (Unicode code point) value of each letter
-    in the lowercase alphabet.
+    This program encodes a word by shifting each letter forward in the
+    alphabet by its position (index + 1), wrapping around within its case.
+    Non-letter characters are left unchanged.
 """
 
 def simple_encoder(word):

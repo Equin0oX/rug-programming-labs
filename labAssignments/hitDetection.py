@@ -3,7 +3,7 @@ File:   hitDetection.py
 Author: Sebastian Ševčík (s.sevcik@student.rug.nl)
 
 Description:
-    This program takes inputs for coordinated of opposing edges of a rectangle, and a point laying onf the field, then prints out where the point lays in relation to the shape.
+    This program takes inputs for coordinates of opposing corners of a rectangle, and a point on the field, then prints out where the point lies in relation to the shape.
 """
 
 corner1 = (int(input()),int(input()))
