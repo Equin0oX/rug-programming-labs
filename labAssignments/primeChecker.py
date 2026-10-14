@@ -4,7 +4,7 @@ Author: Sebastian Ševčík (s.sevcik@student.rug.nl)
 
 Description:
     Reads an integer from standard input and prints the largest prime number
-    that is less than or equal to it.
+    that is strictly less than it.
 """
 
 def lastPrime(ceilingNumber):
