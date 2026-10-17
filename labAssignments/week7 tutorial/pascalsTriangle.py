@@ -1,4 +1,4 @@
-def triangeMaker(rows):
+def triangleMaker(rows):
     triangle = [[1]]
     for i in range(2, rows + 1):
         row = [1]
@@ -8,7 +8,7 @@ def triangeMaker(rows):
         triangle.append(row)
     return triangle
 
-result = triangeMaker(int(input()))
+result = triangleMaker(int(input()))
 
 for line in result:
     print(line)
